@@ -20,14 +20,14 @@ public class NewAutonomous extends LinearOpMode {
 
     public void runOpMode() throws InterruptedException {
 
-        fl = hardwareMap.dcMotor.get("fl");
-        bl = hardwareMap.dcMotor.get("bl");
-        fr = hardwareMap.dcMotor.get("fr");
-        br = hardwareMap.dcMotor.get("br");
+        fl = hardwareMap.dcMotor.get("fl"); //Front right motor
+        bl = hardwareMap.dcMotor.get("bl"); //Back left motor
+        fr = hardwareMap.dcMotor.get("fr"); //Front right motor
+        br = hardwareMap.dcMotor.get("br"); //Back right motor
 
-        car = hardwareMap.dcMotor.get("car");
+        car = hardwareMap.dcMotor.get("car"); //Carousel contraption motor
 
-        box = hardwareMap.servo.get("box");
+        box = hardwareMap.servo.get("box"); //Box intake pivot servo
 
 
         waitForStart();

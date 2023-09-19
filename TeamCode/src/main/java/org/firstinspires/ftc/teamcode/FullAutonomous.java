@@ -24,15 +24,15 @@ public class FullAutonomous extends LinearOpMode {
 
     public void runOpMode() throws InterruptedException {
 
-        fl = hardwareMap.dcMotor.get("fl");
-        bl = hardwareMap.dcMotor.get("bl");
-        fr = hardwareMap.dcMotor.get("fr");
-        br = hardwareMap.dcMotor.get("br");
+        fl = hardwareMap.dcMotor.get("fl"); //This is the front left motor of the robot
+        bl = hardwareMap.dcMotor.get("bl"); //This is the back left motor of the robot
+        fr = hardwareMap.dcMotor.get("fr"); //This is the front right motor of the robot
+        br = hardwareMap.dcMotor.get("br"); //This is the back right motor of the robot
 
-        car = hardwareMap.dcMotor.get("in");
-        car = hardwareMap.dcMotor.get("car");
-        car = hardwareMap.dcMotor.get("sl");
-        car = hardwareMap.dcMotor.get("sp");
+        car = hardwareMap.dcMotor.get("in"); //This is the motor for the intake
+        car = hardwareMap.dcMotor.get("car"); //This is the motor for the carousel
+        car = hardwareMap.dcMotor.get("sl"); //This is the motor for the linear slide extension
+        car = hardwareMap.dcMotor.get("sp"); //This is the motor for the linear slide pivot
 
         box = hardwareMap.servo.get("box");
 
