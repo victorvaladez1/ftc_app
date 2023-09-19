@@ -1,3 +1,5 @@
+All code for Mohawk Warriors Purple #8790 is located under TeamCode/src/main/java/org/firstinspires/ftc/teamcode
+
 ## NOTICE
 
 This repository contains v5.0 of the FTC SDK.  No further versions will pushed to https://github.com/ftctechnh/ftc_app.
